@@ -2,10 +2,10 @@ clear all
 close all
 
 
-azim = -90;
-elev = 0;
+azim = 0;
+elev = 180;
 
-[x,fs] = audioread('440.wav');
+[x,fs] = audioread('web-server/web-dir/440.wav');
 
 
 %sound(y,fs)

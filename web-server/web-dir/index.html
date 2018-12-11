@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+  <script src="webaudioapi.js"></script>
+
+<body>
+Web audio testing
+
+<p> <button onclick="startSin();">start</button> </p>
+<p> <button onclick="stopSin();">stop SIN</button> </p>
+<p> <button onclick="stopSource();">stop PLAYER</button> </p>
+<p><input id ="freq" type="number" min="440" max ="20000" step= "50" value="440" onchange="changeFrequency();">frequency</input></p>
+
+<p><input id="gain" type="number" min="0.0" max="2" step="0.1" value="1.0" onchange="changeGain();">gain</input></p>
+
+<p><button onclick="playSound();"> Play </button></p>
+
+
+</body>
+
+</html>
